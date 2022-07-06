@@ -86,4 +86,17 @@ main section div {
     padding: 10px;
     
 }
+ 
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
+#photo1 {
+    max-width: 40%;
+}
+
+.otherphotos {
+    max-width: 20%;
+}
